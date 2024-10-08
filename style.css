@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-family:Burbank 
+}
+p {
+  font-size: 15px;
+  font-family:Burbank
+  background-color: black;
+  color: black;
+}
+p1 {
+  font-size: 18px;
+  font-family:Burbank
+  background-color: white;
+  color: black;
+  }
+.background-text {
+  background-color: pink;
+  }
+.background-text1 {
+  background-color: white;
+  }
+.whatsapp-btn {
+    display: block; /* Ensure the link behaves as a block element */
+    margin-top: 20px; /* Adjust the value to control the space above */
+}
+.whatsapp-btn button {
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.whatsapp-btn button:hover {
+    background-color: #128C7E; /* Darker green on hover */
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
